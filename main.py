@@ -38,19 +38,15 @@ bar_chart_points(data1)
 
 
 def save_to_md(data):
-    test = g_describe(data)
-    test2 = stat_update(data, "AST")
-    mkdown = test.write_csv(None)
-    mkdown2 = test2.write_csv(None)
-    with open("nbastats1.md", "a", encoding="utf-8") as file:
+    test = g_describe(data).to_pandas()
+    test2 = stat_update(data, "AST").to_pandas()
+    mkdown = test.to_markdown(index=False)
+    mkdown2 = test2.to_markdown(index=False)
+    with open("nbastats2.md", "a", encoding="utf-8") as file:
         file.write("Describe:\n")
         file.write(mkdown)
         file.write("Summarize:\n")
         file.write(mkdown2)
-        file.write("n\n")
-        file.write("![NBA_1](points_by_position.png)\n")
-        file.write("n\n")
-        file.write("![NBA_2](assists.png)\n")
 
 
 if __name__ == "__main__":
