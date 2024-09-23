@@ -25,7 +25,11 @@ def stat_update(data, col):
     mean1 = grab_mean(df, col)
     median1 = grab_median(df, col)
     stdev1 = grab_stdev(df, col)
-    df1 = pd.DataFrame([mean1, median1, stdev1])
+    df1 = pl.DataFrame({
+        "mean": [mean1],
+        "median": [median1],
+        "stdev": [stdev1]
+    })
     return df1
 
 
