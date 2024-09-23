@@ -7,16 +7,16 @@ In this project, I have utilized polars to load the 2023-2024 NBA data. Similar 
 The below serves as a summary of the individual project involving the preparation of descriptive statistics and the markdown file. 
 
 Format.yml
-[![CI](https://github.com/atreyat12/avt12-Week2Pandas/actions/workflows/format.yml/badge.svg)](https://github.com/atreyat12/avt12-Week2Pandas/actions/workflows/format.yml)
+[![CI](https://github.com/nogibjj/Atreya-Tadepalli-Miniproject-3/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Atreya-Tadepalli-Miniproject-3/actions/workflows/format.yml)
 
-Build.yml
-[![CI](https://github.com/atreyat12/avt12-Week2Pandas/actions/workflows/install.yml/badge.svg)](https://github.com/atreyat12/avt12-Week2Pandas/actions/workflows/install.yml)
+Install.yml
+[![CI](https://github.com/nogibjj/Atreya-Tadepalli-Miniproject-3/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Atreya-Tadepalli-Miniproject-3/actions/workflows/install.yml)
 
 Test.yml
-[![CI](https://github.com/atreyat12/avt12-Week2Pandas/actions/workflows/test.yml/badge.svg)](https://github.com/atreyat12/avt12-Week2Pandas/actions/workflows/test.yml)
+[![CI](https://github.com/nogibjj/Atreya-Tadepalli-Miniproject-3/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Atreya-Tadepalli-Miniproject-3/actions/workflows/test.yml)
 
 Lint.yml
-[![CI](https://github.com/atreyat12/avt12-Week2Pandas/actions/workflows/lint.yml/badge.svg)](https://github.com/atreyat12/avt12-Week2Pandas/actions/workflows/lint.yml)
+[![CI](https://github.com/nogibjj/Atreya-Tadepalli-Miniproject-3/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Atreya-Tadepalli-Miniproject-3/actions/workflows/lint.yml)
 
 ## **Data Source**
 
